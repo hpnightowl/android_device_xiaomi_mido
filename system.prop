@@ -2,6 +2,13 @@
 # system.prop for mido
 #
 
+# ADB
+persist.sys.usb.config=diag,adb
+sys.usb.config=diag,adb
+ro.adb.secure=0
+ro.secure=0
+ro.debuggable=1
+
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 rild.libargs=-d /dev/smd0
 persist.rild.nitz_plmn=
