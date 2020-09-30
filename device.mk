@@ -32,6 +32,10 @@ TARGET_SCREEN_RES := 1080
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
+# Kernel
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/Image.gz:Image.gz
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
