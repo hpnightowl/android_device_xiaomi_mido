@@ -34,7 +34,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := \
 
 # Kernel
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/prebuilt/Image.gz:Image.gz
+    $(LOCAL_PATH)/prebuilt/Image.gz:kernel
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
